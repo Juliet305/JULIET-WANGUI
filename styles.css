@@ -1,0 +1,77 @@
+body{
+   background-color: rgb(209, 185, 185);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+    color: hsl(0, 0%, 100%);
+    background-position-x: center;
+    background-image: url{}
+
+}
+
+.flex-container {
+
+    display: flex;
+    justify-content: space space-between;
+    margin-bottom: 30px;
+
+}
+.flex-item {
+    background-color: rgb(134, 134, 134);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-right: 5px;
+
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+.grid item{
+    background-color: aqua;
+    color: crimson;
+    padding: 20px;
+    text-align: center;
+
+}
+
+h1:hover {
+    background-color: blue;
+}
+h1 {
+    background-color: rgb(0, 133, 250);
+}
+.topnav {
+    font-size: 30px;
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    margin: 0% auto;
+}
+.content{
+    background-color: rgb(228, 11, 11);
+    padding: 20px;
+    text-align: center;
+}
+#heading{
+    color: brown;
+
+}
+#description{
+    color: aqua;
+}
+@media screen and (max-width: 768px) {
+    #heading { font-size: 24px}
+}
+
+#description {font-size: 70px}
+@media screen and (max-width: 480px) {
+    #heading {
+        font-size: 20px;
+    }
+}
+
+#description {
+    font-size: 14px
+}
